@@ -1,6 +1,7 @@
 # class-String
 write a String class by c++
-自己定义一个字符串类String,使该类实现如下要求：
+自己定义一个字符串类String,使该类实现如下要求：</br>
+```
 String a=”Hello”;//重载=
 String b=a,c;//拷贝构造函数
  c=b;//重载=
@@ -16,3 +17,4 @@ String str=”   abc “;
 String str1=str.tmn();//去掉字符串中前缀后缀空格
 char x=str[1];
 str[0]=b;
+```
